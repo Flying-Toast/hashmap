@@ -3,8 +3,6 @@
 
 #include <sys/types.h>
 
-#define ERR_DOUBLE_RELEASE 1
-
 struct hashmap {
 	void **entries;
 	size_t size;
